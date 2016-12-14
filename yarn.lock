@@ -3346,10 +3346,6 @@ qs@~6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.0.tgz#f403b264f23bc01228c74131b407f18d5ea5d442"
 
-ramda@~0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.21.0.tgz#a001abedb3ff61077d4ff1d577d44de77e8d0a35"
-
 random-bytes@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/random-bytes/-/random-bytes-1.0.0.tgz#4f68a1dc0ae58bd3fb95848c30324db75d64360b"
@@ -3385,6 +3381,12 @@ react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
+react-native-drawer@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-drawer/-/react-native-drawer-2.3.0.tgz#a0369ec80ff0b61c9f152dbdea91fe76c843113a"
+  dependencies:
+    tween-functions "^1.0.1"
+
 react-native-experimental-navigation@0.26.x:
   version "0.26.10"
   resolved "https://registry.yarnpkg.com/react-native-experimental-navigation/-/react-native-experimental-navigation-0.26.10.tgz#355e37929a2bfb84088dca331f34bc575297df68"
@@ -3399,12 +3401,6 @@ react-native-experimental-navigation@0.26.x:
 react-native-i18n@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/react-native-i18n/-/react-native-i18n-0.1.1.tgz#7fdc7512e71c9f5057d5f9ee8d559fc4801a1c14"
-
-react-native-material-kit@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/react-native-material-kit/-/react-native-material-kit-0.3.3.tgz#5471c7171c40a2d27cf03cb3d1bdacd54b69e00a"
-  dependencies:
-    ramda "~0.21.0"
 
 react-native-router-flux@^3.37.0:
   version "3.37.0"
@@ -3432,9 +3428,9 @@ react-native-vector-icons@^3.0.0:
     lodash "^4.0.0"
     yargs "^6.3.0"
 
-react-native@0.39.1:
-  version "0.39.1"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.39.1.tgz#87c0cd962a05e9011735a35eff927e9564e868a5"
+react-native@^0.39.2:
+  version "0.39.2"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.39.2.tgz#c73ed67ff25ea8e31643ac6ef2d60a88f26d12c1"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
@@ -4162,6 +4158,10 @@ tsscmp@1.0.5:
 tunnel-agent@~0.4.1:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.4.3.tgz#6373db76909fe570e08d73583365ed828a74eeeb"
+
+tween-functions@^1.0.1:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/tween-functions/-/tween-functions-1.2.0.tgz#1ae3a50e7c60bb3def774eac707acbca73bbc3ff"
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.4"

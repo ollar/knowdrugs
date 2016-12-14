@@ -25,7 +25,7 @@ class RouterWithRedux extends React.Component {
 }
 
 RouterWithRedux.propTypes = {
-  app: React.PropTypes.object,
+  app: React.PropTypes.shape(),
   children: React.PropTypes.element,
 };
 

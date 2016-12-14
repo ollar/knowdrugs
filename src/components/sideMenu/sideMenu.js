@@ -130,16 +130,13 @@ class SideMenuComponent extends React.Component {
 
 SideMenuComponent.propTypes = {
   dispatch: React.PropTypes.func,
-  drawer: React.PropTypes.object,
-  router: React.PropTypes.object,
-  messages: React.PropTypes.object,
+  router: React.PropTypes.shape(),
 };
 
 function props(state) {
   return {
     drawer: state.drawer,
     router: state.router,
-    messages: state.messages,
   };
 }
 

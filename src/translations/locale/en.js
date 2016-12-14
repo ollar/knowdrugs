@@ -1,6 +1,12 @@
+/* eslint-disable */
+
 const en = {
-  'hello there': 'hello',
-  'add to list': 'Add to List',
+  'drugchecking': 'Drugchecking',
+  'substanceInfo': 'Substance Info',
+  'emergencyHelp': 'Emergency Help',
+  'counselling': 'Counselling',
+  'supportUs': 'Support Us',
+  'about': 'About'
 };
 
 export default en;

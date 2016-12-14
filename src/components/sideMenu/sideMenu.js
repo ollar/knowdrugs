@@ -50,19 +50,34 @@ const styles = StyleSheet.create({
 
 const menuButtons = [
   {
-    key: 'home',
+    key: 'drugchecking',
     icon: 'home',
-    text: 'home',
+    text: 'drugchecking',
   },
   {
-    key: 'readBible',
+    key: 'substanceInfo',
     icon: 'open-book',
-    text: 'readBible',
+    text: 'substanceInfo',
   },
   {
-    key: 'chat',
+    key: 'emergencyHelp',
     icon: 'chat',   // message
-    text: 'messages',
+    text: 'emergencyHelp',
+  },
+  {
+    key: 'counselling',
+    icon: 'chat',   // message
+    text: 'counselling',
+  },
+  {
+    key: 'supportUs',
+    icon: 'chat',   // message
+    text: 'supportUs',
+  },
+  {
+    key: 'about',
+    icon: 'chat',   // message
+    text: 'about',
   },
 ];
 
@@ -75,7 +90,8 @@ class SideMenuComponent extends React.Component {
 
   getColor(key) {
     // baseStyles.text.color
-    return (this.props.router.get('scene').sceneKey === key) ?
+    const router = this.props.router.toJS();
+    return (router.scene.sceneKey === key) ?
       baseStyles.primaryColor : '#111';
   }
 

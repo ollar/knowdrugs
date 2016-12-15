@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { MKColor } from 'react-native-material-kit';
 
-const colourScheme = {
+export const colourScheme = {
   primaryColor: MKColor.Indigo,
   primaryColorRGB: MKColor.RGBIndigo,
   accentColor: MKColor.Teal,

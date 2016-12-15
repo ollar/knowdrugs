@@ -6,6 +6,7 @@ import {
 } from 'react-native';
 
 import baseStyles from '../../components/styles/main';
+import { Button } from '../../components/mkButtons';
 
 class DrugCheckingPage extends React.Component {
   componentDidMount() {
@@ -15,7 +16,15 @@ class DrugCheckingPage extends React.Component {
   render() {
     return (
       <View style={baseStyles.container}>
-        <Text>DrugCheckingPage</Text>
+        <View style={baseStyles.content}>
+          <Text>DrugCheckingPage</Text>
+          <Button
+            style={{ padding: 20, borderRadius: 30, backgroundColor: '#e3e' }}
+            onPress={() => console.log('hello')}
+          >
+            test
+          </Button>
+        </View>
       </View>
     );
   }

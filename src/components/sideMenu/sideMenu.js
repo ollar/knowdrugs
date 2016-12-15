@@ -137,6 +137,7 @@ function props(state) {
   return {
     drawer: state.drawer,
     router: state.router,
+    locale: state.locale,
   };
 }
 

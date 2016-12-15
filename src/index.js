@@ -9,7 +9,6 @@ import Drawer from './components/sideMenu/drawer';
 import NavigationComponent from './components/navbar/navigation';
 
 import RouterWithRedux from './components/router';
-import I18n from './translations';
 
 import DrugCheckingPage from './pages/drugchecking';
 import SubstanceInfoPage from './pages/substanceInfo';
@@ -28,32 +27,32 @@ function Knowdrugs() {
               initial
               key="drugchecking"
               component={DrugCheckingPage}
-              title={I18n.t('drugchecking')}
+              title="drugchecking"
             />
             <Scene
               key="substanceInfo"
               component={SubstanceInfoPage}
-              title={I18n.t('substanceInfo')}
+              title="substanceInfo"
             />
             <Scene
               key="emergencyHelp"
               component={EmergencyHelpPage}
-              title={I18n.t('emergencyHelp')}
+              title="emergencyHelp"
             />
             <Scene
               key="counselling"
               component={CounsellingPage}
-              title={I18n.t('counselling')}
+              title="counselling"
             />
             <Scene
               key="supportUs"
               component={SupportUsPage}
-              title={I18n.t('supportUs')}
+              title="supportUs"
             />
             <Scene
               key="about"
               component={AboutPage}
-              title={I18n.t('about')}
+              title="about"
             />
           </Scene>
         </RouterWithRedux>

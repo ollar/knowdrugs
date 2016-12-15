@@ -32,7 +32,12 @@ function DrawerComponent(props) {
       content={<SideMenu />}
       styles={drawerStyles}
       open={props.drawer.get('drawerIsOpen')}
-      openDrawerOffset={0.1}
+      openDrawerOffset={(viewport) => {
+        if (viewport.width < 400) {
+          return viewport.width * 0.1;
+        }
+        return viewport.width - 400;
+      }}
       panOpenMask={0.1}
       onOpen={() => props.dispatch(drawerOpen())}
       onClose={() => props.dispatch(drawerClose())}

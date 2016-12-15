@@ -3346,6 +3346,10 @@ qs@~6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.0.tgz#f403b264f23bc01228c74131b407f18d5ea5d442"
 
+ramda@~0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.21.0.tgz#a001abedb3ff61077d4ff1d577d44de77e8d0a35"
+
 random-bytes@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/random-bytes/-/random-bytes-1.0.0.tgz#4f68a1dc0ae58bd3fb95848c30324db75d64360b"
@@ -3401,6 +3405,12 @@ react-native-experimental-navigation@0.26.x:
 react-native-i18n@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/react-native-i18n/-/react-native-i18n-0.1.1.tgz#7fdc7512e71c9f5057d5f9ee8d559fc4801a1c14"
+
+"react-native-material-kit@https://github.com/ollar/react-native-material-kit":
+  version "0.3.3"
+  resolved "https://github.com/ollar/react-native-material-kit#14549a0385fabfdf21684a9ec81dd329d1497a57"
+  dependencies:
+    ramda "~0.21.0"
 
 react-native-router-flux@^3.37.0:
   version "3.37.0"

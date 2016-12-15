@@ -1,13 +1,10 @@
 import { StyleSheet } from 'react-native';
-// import { MKColor } from 'react-native-material-kit';
+import { MKColor } from 'react-native-material-kit';
 
 const colourScheme = {
-  primaryColor: 'indigo',
-  // primaryColorRGB: MKColor.RGBIndigo,
-  accentColor: 'teal',
-  // primaryColor: MKColor.Indigo,
-  // primaryColorRGB: MKColor.RGBIndigo,
-  // accentColor: MKColor.Teal,
+  primaryColor: MKColor.Indigo,
+  primaryColorRGB: MKColor.RGBIndigo,
+  accentColor: MKColor.Teal,
 };
 
 const baseStyles = Object.assign({}, colourScheme, StyleSheet.create({

@@ -5,6 +5,8 @@ import {
   Text,
 } from 'react-native';
 
+import baseStyles from '../../components/styles/main';
+
 class SupportUsPage extends React.Component {
   componentDidMount() {
 
@@ -12,7 +14,7 @@ class SupportUsPage extends React.Component {
 
   render() {
     return (
-      <View>
+      <View style={baseStyles.container}>
         <Text>SupportUsPage</Text>
       </View>
     );

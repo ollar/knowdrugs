@@ -5,6 +5,8 @@ import {
   Text,
 } from 'react-native';
 
+import baseStyles from '../../components/styles/main';
+
 class EmergencyHelpPage extends React.Component {
   componentDidMount() {
 
@@ -12,7 +14,7 @@ class EmergencyHelpPage extends React.Component {
 
   render() {
     return (
-      <View>
+      <View style={baseStyles.container}>
         <Text>EmergencyHelpPage</Text>
       </View>
     );
